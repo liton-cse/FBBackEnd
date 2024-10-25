@@ -1,0 +1,277 @@
+/* Main name folodo Bangladesh Style...*/
+.main-header-style{
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 
+    -2px -2px 4px rgba(255, 255, 255, 0.5);
+  }
+  
+.hover-menu-item:hover{
+    background-color:rgb(130, 231, 130); 
+    transition: background-color 0.3s;
+}
+
+.hover-menu-item{
+    height:40px;
+    text-align: center;
+}
+body{
+    background-color: rgb(231, 231, 239);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 110px;
+}
+/* General styling for all screen sizes */
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust the logo size for small devices */
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .navbar-brand {
+      font-size: 18px;
+      margin-left: 10px;
+    }
+  
+    .navbar .nav-link {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+  
+    .navbar .nav-dropdown .dropdown-menu {
+      font-size: 14px;
+    }
+  
+    .navbar {
+      padding: 10px 15px;
+    }
+  }
+  
+  /* For larger screens */
+  @media (min-width: 992px) {
+    .navbar-brand img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .navbar-brand {
+      font-size: 24px;
+      margin-left: 20px;
+    }
+  
+    .navbar .nav-link {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+  
+    .navbar .nav-dropdown .dropdown-menu {
+      font-size: 16px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/*Home page csss body content*/
+
+.home_header{
+    display: flex;
+    justify-items: center;
+    margin:50px,25px,30px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+}
+
+
+.home_header_div_1{
+    width: 50%;
+    margin: 10px;
+}
+.img{
+    height: 350px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 80px;
+}
+.home_header_div_2{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+/*About section style*/
+
+.about_header{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.about_div_1{
+    width: 50%;
+    padding: 20px;
+}
+.About_image_div{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+/*Acitivies content style */
+
+.activities_main_div{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.activities_content_div{
+    padding:10px 30px 10px 10px;
+}
+
+/*Mahogony style content*/
+.mahogony_style{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+.mahogony_style p{
+    padding: 10px;
+}
+.heading_mahogony{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.mahogony_style img{
+    padding: 10px;
+}
+
+
+/*Rain tree Style content*/
+.raintree_style{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+.raintree_style p{
+    padding: 10px;
+}
+.heading_raintree{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.raintree_style img{
+    padding: 10px;
+}
+
+
+/*Shisham tree Style content*/
+
+.shishamtree_style{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+.shishamtree_style p{
+    padding: 10px;
+}
+.heading_shishamtree{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.shishamtree_style img{
+    padding: 10px;
+}
+
+/*akashmonitree style content in here*/
+
+.akashmonitree_style{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+.akashmonitree_style p{
+    padding: 10px;
+}
+.heading_akashmonitree{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.akashmonitree_style img{
+    padding: 10px;
+}
+
+
+/*Eucalyptus style information */
+
+.eucalyptus_style{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+.eucalyptus_style p{
+    padding: 10px;
+}
+.heading_eucalyptus{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.eucalyptus_style img{
+    padding: 10px;
+}
+
+
+
+/*Event page style content hrer*/
+
+
+.event_style{
+    display:flex;
+    justify-content: space-between;
+    margin: 30px 10px 20px 10px;
+    padding: 10px;
+}
+.event_style p{
+    padding: 10px;
+}
+.event_heading{
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.event_style img{
+    padding: 10px;
+}
+
+
+
+
+

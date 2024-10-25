@@ -1,0 +1,96 @@
+body{
+    background-color: #007b7b;
+}
+.addUser {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    font-family: monospace, monospace;
+}
+
+.addUserForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addUserForm .inputGroup label {
+    margin-top: 1rem;
+}
+
+.addUserForm .inputGroup input {
+    margin-top: 0.5rem; 
+    padding: 0.8rem; 
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.inputGroup button {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inputGroup button:hover {
+    background-color: #007b7b; 
+}
+
+.login {
+    margin-top: 2rem; 
+    text-align: center;
+}
+
+.login .btn.btn-primary {
+    width: 50%; 
+}
+
+.addUser h3 {
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.addUserForm .inputGroup input:hover {
+    box-shadow: 1px 1px 8px green;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .addUser {
+        margin: 30px auto;
+        padding: 20px; 
+    }
+
+    .addUserForm .inputGroup input,
+    .inputGroup button {
+        padding: 0.6rem; 
+    }
+
+    .login .btn.btn-primary {
+        width: 50%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .addUser {
+        width: 100%; 
+        margin: 20px auto; 
+    }
+
+    .addUserForm .inputGroup label,
+    .addUserForm .inputGroup input,
+    .inputGroup button {
+        font-size: 0.9rem; 
+    }
+}

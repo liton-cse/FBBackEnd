@@ -1,0 +1,6 @@
+client/node_modules
+<<<<<<< HEAD
+server/node_modules
+=======
+server/node_modules
+>>>>>>> test
