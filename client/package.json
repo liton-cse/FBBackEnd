@@ -9,7 +9,6 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "proxy": "`https://fbbackend-server.onrender.com`",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "axios": "^1.7.5",
