@@ -23,7 +23,10 @@ const ExecutiveRouters = require("./CrudAPI/Organization/executive");
 const GeneralRouters = require("./CrudAPI/Organization/general");
 //configaration......
 const app = express();
-const allowOrigin = ["https://folodo-b-frontend.vercel.app/"];
+const allowOrigin = [
+  "https://folodo-b-frontend.vercel.app/",
+  "https://fbbackend-client.onrender.com",
+];
 app.use(
   cors({
     origin: function (origin, callback) {
