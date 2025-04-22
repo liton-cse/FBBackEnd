@@ -24,7 +24,7 @@ const GeneralRouters = require("./CrudAPI/Organization/general");
 //configaration......
 const app = express();
 const allowOrigin = [
-  "https://folodo-b-frontend.vercel.app/",
+  "https://folodo-b-frontend.onrender.com",
   "https://fbbackend-client.onrender.com",
 ];
 app.use(
