@@ -20,7 +20,9 @@ function About() {
   }, []);
 
   const fetchItems = async () => {
-    const response = await axios.get("http://localhost:3000/api/about");
+    const response = await axios.get(
+      "https://fbbackend-server.onrender.com/api/about"
+    );
     setItems(response.data);
   };
 
@@ -46,11 +48,15 @@ function About() {
     }
 
     try {
-      await axios.post("http://localhost:3000/api/about", data, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      await axios.post(
+        "https://fbbackend-server.onrender.com/api/about",
+        data,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
       fetchItems();
       handleClose();
       alert("Upload successful");
@@ -81,11 +87,15 @@ function About() {
     }
 
     try {
-      await axios.put(`http://localhost:3000/api/about/${editIndex}`, data, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      await axios.put(
+        `https://fbbackend-server.onrender.com/api/about/${editIndex}`,
+        data,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
       fetchItems();
       handleClose();
       alert("Update successful");
@@ -96,7 +106,9 @@ function About() {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:3000/api/about/${id}`);
+      await axios.delete(
+        `https://fbbackend-server.onrender.com/api/about/${id}`
+      );
       setItems(items.filter((item) => item._id !== id));
       alert("Delete successful");
     } catch (error) {
@@ -148,7 +160,7 @@ function About() {
                   {/* Display the image */}
                   {item.image && (
                     <img
-                      src={`http://localhost:3000/about-image/${item.image}`}
+                      src={`https://fbbackend-server.onrender.com/about-image/${item.image}`}
                       alt="About"
                       style={{
                         width: "80px",

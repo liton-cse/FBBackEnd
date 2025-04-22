@@ -18,10 +18,13 @@ function LoginForm() {
     setErrorMessage("");
 
     try {
-      const response = await axios.post("http://localhost:3000/auth/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(
+        "https://fbbackend-server.onrender.com/auth/login",
+        {
+          email,
+          password,
+        }
+      );
 
       if (response.data.token) {
         localStorage.setItem("token", response.data.token);
@@ -35,7 +38,8 @@ function LoginForm() {
     } catch (error) {
       console.error("Error:", error);
       setErrorMessage(
-        error.response?.data?.message || "An unexpected error occurred. Please try again."
+        error.response?.data?.message ||
+          "An unexpected error occurred. Please try again."
       );
     } finally {
       setIsLoading(false);
