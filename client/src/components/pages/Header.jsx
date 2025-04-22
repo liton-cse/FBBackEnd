@@ -20,7 +20,7 @@ function Header() {
           />
         </Navbar.Brand>
         <Navbar.Brand href="/" className="ms-4 main-header-style">
-          ফলদ বাংলাদেশ ফাউন্ডেশন
+          ফলদ বাংলাদেশ
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse>
